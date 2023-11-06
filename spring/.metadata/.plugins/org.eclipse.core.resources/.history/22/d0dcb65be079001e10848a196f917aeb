@@ -1,0 +1,25 @@
+package com.ssafy.board;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest(
+	properties = {
+			"userid=ssafy",
+			"userpwd=1234"
+	}
+)
+
+class Board6SpringbootApplicationTests {
+	
+	@Value("${userid}")
+	private String userId;
+	@Value("${userpwd}")
+	private String userPwd;
+	
+	@Test
+	void contextLoads() {
+	}
+
+}

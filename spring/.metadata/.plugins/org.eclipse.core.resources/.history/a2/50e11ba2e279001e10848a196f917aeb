@@ -1,0 +1,34 @@
+package com.ssafy.admin.controller;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class AdminUserControllerTest {
+
+	@Test
+	void testUserList() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testUserRegister() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testUserInfo() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testUserModify() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testUserDelete() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,60 @@
+package com.ssafy.admin.controller;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.web.servlet.MockMvc;
+
+import com.ssafy.member.model.service.MemberService;
+
+import lombok.extern.slf4j.Slf4j;
+
+@SpringBootTest(
+		properties = {
+				"\n" + 
+				"spring.config.location=classpath:application.properties"
+		})
+@Slf4j
+class AdminUserControllerTest {
+
+	@Value("${userid}")
+	private String userId;
+	
+	@Value("${userpwd}")
+	private String userPwd;
+	
+	@Autowired
+	private MemberService memberService;
+	
+	@Autowired
+	private MockMvc mockMvc;	
+	
+	@Test
+	void testUserList() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testUserRegister() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testUserInfo() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testUserModify() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testUserDelete() {
+		fail("Not yet implemented");
+	}
+
+}

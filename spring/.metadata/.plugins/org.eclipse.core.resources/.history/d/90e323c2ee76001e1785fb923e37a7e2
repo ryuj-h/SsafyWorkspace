@@ -1,0 +1,12 @@
+package com.ssafy.hello.dao;
+
+@Component
+public class HelloDaoImpl implements HelloDao {
+
+	@Override
+	public String greeting() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

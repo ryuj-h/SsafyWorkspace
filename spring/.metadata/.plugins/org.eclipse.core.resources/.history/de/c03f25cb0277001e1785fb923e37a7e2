@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel = "stylesheet" type = "text/css" herf = "/css/app.css">
+</head>
+<body>
+	<h1>Hello Spring Boot !!! 222</h1>
+	<a href= "/hello" > Hello</a>
+</body>
+</html>

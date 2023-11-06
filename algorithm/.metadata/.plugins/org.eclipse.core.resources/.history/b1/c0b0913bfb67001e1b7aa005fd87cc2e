@@ -1,0 +1,56 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
+public class SWEA4014 {
+	public static int T,N,X, map[][];
+	
+	/**
+	 * 
+	 * 
+	 * 
+	 * @return
+	 */
+	public static boolean isPosiblePath() {
+		
+		return false
+	}
+	
+	public static void main(String[] args) throws NumberFormatException, IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        T = Integer.parseInt(br.readLine());
+        for(int tc = 1; tc<=T;tc++) {
+        	StringTokenizer st = new StringTokenizer(br.readLine());
+        	N = Integer.parseInt(st.nextToken());
+        	X = Integer.parseInt(st.nextToken());
+        	
+        	map = new int[N][N];
+        	for(int y= 0; y< N; y++) {
+            	st = new StringTokenizer(br.readLine());
+        		for(int x= 0; x< N; x++) {
+        			map[y][x] = Integer.parseInt(st.nextToken());
+        		}
+        	}
+        	
+        	
+        	ArrayList<Integer>Arrays[] = new ArrayList[N * N];
+        	for(int y = 0 ; y < N ; y++) {
+        		ArrayList <Integer> row = new ArrayList();
+        		ArrayList <Integer> col = new ArrayList();
+        		for(int x= 0; x < N; x++) {
+        			row.add(map[y][x]);
+        			col.add(map[x][y]);
+        		}
+        	}
+        	
+        	for(ArrayList<Integer> currlist: Arrays) {
+        		for(int nb : currlist) {
+        			System.out.printf("%d ");
+        		}
+        		System.out.println();
+        	}
+        }   
+	}
+}

@@ -1,0 +1,88 @@
+<!-- form-input-bindings.html -->
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <div id="app">
+      <p>{{ inputText1 }}</p>
+      <input v-bind="inputText1" v-on:input="onInput" />
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp, ref } = Vue;
+
+      const app = createApp({
+        setup() {
+          const inputText1 = ref("dd");
+          const inputText2 = ref("aa");
+
+          const onInput = (event) => {
+            console.log("input 이벤트");
+            console.log("input 이벤트객체", event);
+          };
+          return {
+            inputText1,
+            inputText2,
+            onInput,
+          };
+        },
+      });
+
+      app.mount("#app");
+    </script>
+  </body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">
+      <p>{{ inputText1 }}</p>
+      <input :value="inputText1" @input="onInput" />
+
+      <p>{{ inputText2 }}</p>
+      <input v-model="inputText2" />
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp, ref } = Vue;
+
+      const app = createApp({
+        setup() {
+          const inputText1 = ref("");
+          const inputText2 = ref("");
+          const onInput = function (event) {
+            console.log("input event");
+            console.log(event);
+            inputText1.value = event.currentTarget.value;
+          };
+
+          return {
+            inputText1,
+            onInput,
+            inputText2,
+          };
+        },
+      });
+
+      app.mount("#app");
+    </script>
+  </body>
+</html>
