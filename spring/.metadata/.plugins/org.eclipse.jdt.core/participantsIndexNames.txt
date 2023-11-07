@@ -1,4 +1,6 @@
 INDEX VERSION 1.131
+C:\SSAFY\SsafyWorkspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3853767607.index
+\vueapi\src\main\java
 C:\SSAFY\rjh_workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1177962360.index
 \board4_mybatis_spring\src\main\java
 C:\SSAFY\rjh_workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\340562430.index
@@ -11,12 +13,12 @@ C:\SSAFY\rjh_workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsea
 \board2_file_interceptor\src\main\java
 C:\SSAFY\rjh_workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2229312029.index
 \SpringTest_daejeon_06_RyuJinho\src\main\java
+C:\SSAFY\rjh_workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3022352504.index
+\board6_springboot\src\main\java
 C:\SSAFY\rjh_workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\851449742.index
 \board2_file_interceptor\src\main\java
 C:\SSAFY\rjh_workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1482864803.index
 \board2_file_interceptor\src\main\java
-C:\SSAFY\rjh_workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3022352504.index
-\board6_springboot\src\main\java
 C:\SSAFY\rjh_workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2369027245.index
 \board2_file_interceptor\src\main\java
 C:\SSAFY\rjh_workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1136513102.index
