@@ -1,5 +1,0 @@
-package com.ssafy.term10;
-
-public interface AttandanceService {
-
-}
